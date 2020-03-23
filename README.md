@@ -13,3 +13,12 @@ This is just a one-day project, used to find one tracking number. I'm happy to t
 
 "A UPS tracking number, for domestic packages within the United States, will usually start with "1Z" followed by a 6 character shipper number (numbers and letters), a 2 digit service level indicator, and finally 8 digits identifying the package (the last digit being a check digit), for a total of 18 characters."
  - https://en.wikipedia.org/wiki/Tracking_number
+ 
+ ## Usage 
+ 
+ Install prereqs:
+ ```
+ pip3 install easypost
+ ```
+ 
+ Edit the API key and the partialTrackingNumber variable and you should be good to go once running the script.
